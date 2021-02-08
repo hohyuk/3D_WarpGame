@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. System">
+      <UniqueIdentifier>{646e0fd7-3630-4e55-b147-0d663edf2516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources">
+      <UniqueIdentifier>{b53298ff-a68a-4233-9cc8-f7489a86d08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility">
+      <UniqueIdentifier>{00885f52-af40-45f1-8b9a-6a7ffffe0d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Header">
+      <UniqueIdentifier>{78ecf7f2-50e0-4525-a87e-e7733308acd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\00. GraphicDev">
+      <UniqueIdentifier>{2412e25b-146f-4831-91bd-b803745a1305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\01. Timer">
+      <UniqueIdentifier>{ccde8193-20e5-4d3d-835d-ce9028146900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\02. Frame">
+      <UniqueIdentifier>{1dde2a3a-4f08-4291-a239-3d8e4dac2bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\03. Font">
+      <UniqueIdentifier>{a4478386-e9cd-411b-a2e2-8f1a2ce41c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\01. Timer\Manager">
+      <UniqueIdentifier>{8e2075d3-827e-4f77-9346-df9ac3c998ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\02. Frame\Manager">
+      <UniqueIdentifier>{42b2b681-bd40-4b5b-acb6-e9467665c09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\03. Font\Manager">
+      <UniqueIdentifier>{9242be29-d723-47fb-ac7b-4da4398ca033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\04. InputDev">
+      <UniqueIdentifier>{b42b9286-1288-4c44-bbe6-f5222c5aa176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\99. Export">
+      <UniqueIdentifier>{60a0bc7c-43c5-4eba-ab63-70fe78538f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources">
+      <UniqueIdentifier>{69b8cbbe-b20d-43a2-9f04-40a4a98be65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\00. VIBuffer">
+      <UniqueIdentifier>{47582368-1d3a-4ad0-a972-e430e0f8c9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\01. ResourcesMgr">
+      <UniqueIdentifier>{d2243d70-940c-4ddd-80ba-69aa4f2e245b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\99. Export">
+      <UniqueIdentifier>{9cdb9b72-91c1-4c72-bc02-440545d006e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\00. VIBuffer\00. TriCol">
+      <UniqueIdentifier>{a1975e54-8ab9-4066-aa41-7a7a146ffe83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\01. Texture">
+      <UniqueIdentifier>{00d655d8-5d77-4f08-883a-c7a75b18bbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\00. Management">
+      <UniqueIdentifier>{c4c92959-0a22-43e5-8373-dc359d479b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\01. Scene">
+      <UniqueIdentifier>{57596d6b-18ff-4cbd-bd6d-5fc0664e29e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\02. Layer">
+      <UniqueIdentifier>{de2a4ba7-453e-4fb6-83e7-d9be5c217a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\03. GameObject">
+      <UniqueIdentifier>{5288a516-5d8a-42f4-a72b-c110ff37a516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet">
+      <UniqueIdentifier>{da0741e9-7523-45db-b5fe-b9ca0d9d71e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\05. ProtoMgr">
+      <UniqueIdentifier>{b5b7985f-72af-49d0-a0b5-b291b63aa89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\00. Transform">
+      <UniqueIdentifier>{3a2a52a7-8421-47ea-b4d6-9f1c2e302b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\99. Export">
+      <UniqueIdentifier>{8ccc7e4d-7213-47fa-b2cd-d67dfed72836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\06. Renderer">
+      <UniqueIdentifier>{b55ac9dd-043b-4450-a952-9c53e62b0005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\00. VIBuffer\01. RectCol">
+      <UniqueIdentifier>{c676d164-6734-4d98-b462-6196082b8b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\00. VIBuffer\02. RcTex">
+      <UniqueIdentifier>{13aa2388-d37a-4932-b6bc-044d6bbbb99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\00. VIBuffer\03. CubeTex">
+      <UniqueIdentifier>{6d2674c1-4fd4-4043-837b-e6d3c3560547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\00. VIBuffer\04. TerrainTex">
+      <UniqueIdentifier>{a4f942ba-6f02-463c-8f74-3071c9348db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\07. CollisionMgr">
+      <UniqueIdentifier>{4ab5306d-ea44-4c18-ad1d-87dda1cbdfca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\08. Calcuator">
+      <UniqueIdentifier>{557feec5-ebe2-499c-b5f2-0a3c1ea3b09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\09. Light">
+      <UniqueIdentifier>{e226d3df-f4a7-4460-8dbe-4b1e9c6546d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\05. Sprite">
+      <UniqueIdentifier>{1a112ea0-7fac-4743-946c-ae2d6bf9ceac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\05. Sprite\Manager">
+      <UniqueIdentifier>{66379303-fc9c-449a-8f76-2a6b3c0d5c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\03. GameObject\Camera">
+      <UniqueIdentifier>{3e58cf46-a3b2-41be-9116-8af2758eeab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\03. Physics">
+      <UniqueIdentifier>{e299fa6c-6a14-4650-bb1a-2ee5f491a3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\02. SphereCollider">
+      <UniqueIdentifier>{03a2103d-32fa-4719-a430-c529c189d2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh">
+      <UniqueIdentifier>{42c312fb-0fe3-40de-b6d4-a4323032d733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh\00. StaticMesh">
+      <UniqueIdentifier>{d7caf87f-c8de-43b7-8390-92575c1c389e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\04. Collider">
+      <UniqueIdentifier>{2401702e-369d-4271-9731-368c0d7ecf68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\00. VIBuffer\05. NaviMeshTriCol">
+      <UniqueIdentifier>{877976a7-99ec-4213-934b-4556594564a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh\01. DynamicMesh">
+      <UniqueIdentifier>{ef037c76-3c8c-40f1-ae50-491fbd1a464a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh\01. DynamicMesh\00. HierarchyLoader">
+      <UniqueIdentifier>{ad4bab4e-20fe-42f4-8111-c537d7da3663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh\01. DynamicMesh\01. AniCtrl">
+      <UniqueIdentifier>{6e177b82-b7ae-43a1-8b3c-76266823e3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh\02. NaviMesh">
+      <UniqueIdentifier>{3728a57a-d1ce-480a-ad6d-2934ae26f7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh\02. NaviMesh\00. Cell">
+      <UniqueIdentifier>{da74ffbc-5069-47db-b2e5-f67c1118eba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Resources\00. Resources\02. Mesh\02. NaviMesh\01. Line">
+      <UniqueIdentifier>{cbbe5445-b311-4c64-8999-b6e71af191d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\10. Shader">
+      <UniqueIdentifier>{e6579d91-7aa0-452c-b2ff-5bd743d0339b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\01. Renderer">
+      <UniqueIdentifier>{19e16f5a-d6d6-44d1-8512-2cecbb24cc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\01. Renderer\01. BaseRenderer">
+      <UniqueIdentifier>{e6e4267a-012c-4bdd-aad1-e84a0fafc1cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\01. Renderer\02. TerrainRenderer">
+      <UniqueIdentifier>{dd5b3e6b-ef28-4b43-b9ff-8d669599c01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\01. Renderer\04. MeshRenderer">
+      <UniqueIdentifier>{e5ad8c37-ea8d-4a1b-983a-da7919fcbaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\01. Renderer\03. PolyRenderer">
+      <UniqueIdentifier>{c27b15c7-5f8f-48c5-8efe-1b43dc416976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\01. Renderer\05. SphereRenderer">
+      <UniqueIdentifier>{4ce4c96a-4977-4ee4-a3c8-1e47ee9de82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\97. CameraMgr">
+      <UniqueIdentifier>{1c0d5f16-e77b-464b-8912-e88802cb471e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\98. UserMgr">
+      <UniqueIdentifier>{878f669f-b14a-414d-8711-c0c2d5ba601f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\11. RenderTarget">
+      <UniqueIdentifier>{3a110dfe-33bc-4f55-90dc-11a3c7067ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\11. RenderTarget\Manager">
+      <UniqueIdentifier>{105add95-fcd6-419d-aca9-cf78c5469d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\05. Optimization">
+      <UniqueIdentifier>{41306c9e-1035-4936-802f-34f9f97768fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\05. Optimization\01. Frustum">
+      <UniqueIdentifier>{f70efcdb-c845-4ca3-98db-b47b0815e122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\04. Componet\01. Renderer\06. OrthoRenderer">
+      <UniqueIdentifier>{e3ffec34-dbc3-4d99-ba87-7cff92598cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\03. GameObject\MeshObject">
+      <UniqueIdentifier>{cd89f7a2-9d06-44bc-a8b6-4edbc7e83d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Utility\03. GameObject\SphereCollider">
+      <UniqueIdentifier>{615f3c51-9e5a-4295-9a08-6b6f66c39322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\System\GraphicDev.cpp">
+      <Filter>00. System\00. GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utility\Management.cpp">
+      <Filter>02. Utility\00. Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utility\Scene.cpp">
+      <Filter>02. Utility\01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utility\Layer.cpp">
+      <Filter>02. Utility\02. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utility\GameObject.cpp">
+      <Filter>02. Utility\03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utility\ProtoMgr.cpp">
+      <Filter>02. Utility\05. ProtoMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utility\Component.cpp">
+      <Filter>02. Utility\04. Componet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Timer.cpp">
+      <Filter>00. System\01. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\TimerMgr.cpp">
+      <Filter>00. System\01. Timer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Sprite.cpp">
+      <Filter>00. System\05. Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\SpriteMgr.cpp">
+      <Filter>00. System\05. Sprite\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Font.cpp">
+      <Filter>00. System\03. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\FontMgr.cpp">
+      <Filter>00. System\03. Font\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\Frame.cpp">
+      <Filter>00. System\02. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\FrameMgr.cpp">
+      <Filter>00. System\02. Frame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\InputDev.cpp">
+      <Filter>00. System\04. InputDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utility\Transform.cpp">
+      <Filter>02. Utility\04. Componet\00. Transform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\System\GraphicDev.h">
+      <Filter>00. System\00. GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Define.h">
+      <Filter>03. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Enum.h">
+      <Filter>03. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Function.h">
+      <Filter>03. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Macro.h">
+      <Filter>03. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Struct.h">
+      <Filter>03. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Engine_Typedef.h">
+      <Filter>03. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Export_Function.h">
+      <Filter>03. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utility\Management.h">
+      <Filter>02. Utility\00. Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utility\Scene.h">
+      <Filter>02. Utility\01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utility\Layer.h">
+      <Filter>02. Utility\02. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utility\GameObject.h">
+      <Filter>02. Utility\03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utility\ProtoMgr.h">
+      <Filter>02. Utility\05. ProtoMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utility\Component.h">
+      <Filter>02. Utility\04. Componet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Timer.h">
+      <Filter>00. System\01. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\TimerMgr.h">
+      <Filter>00. System\01. Timer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Sprite.h">
+      <Filter>00. System\05. Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\SpriteMgr.h">
+      <Filter>00. System\05. Sprite\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Font.h">
+      <Filter>00. System\03. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\FontMgr.h">
+      <Filter>00. System\03. Font\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\Frame.h">
+      <Filter>00. System\02. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\FrameMgr.h">
+      <Filter>00. System\02. Frame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\InputDev.h">
+      <Filter>00. System\04. InputDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Export_System.h">
+      <Filter>00. System\99. Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Export_Utility.h">
+      <Filter>02. Utility\99. Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utility\Transform.h">
+      <Filter>02. Utility\04. Componet\00. Transform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Header\Export_System.inl">
+      <Filter>00. System\99. Export</Filter>
+    </None>
+    <None Include="..\Header\Export_Utility.inl">
+      <Filter>02. Utility\99. Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>
