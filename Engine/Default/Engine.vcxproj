@@ -19,6 +19,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Resources\AniCtrl.cpp" />
+    <ClCompile Include="..\Resources\Cell.cpp" />
+    <ClCompile Include="..\Resources\CubeTex.cpp" />
+    <ClCompile Include="..\Resources\DynamicMesh.cpp" />
+    <ClCompile Include="..\Resources\HierarchyLoader.cpp" />
+    <ClCompile Include="..\Resources\Line.cpp" />
+    <ClCompile Include="..\Resources\Mesh.cpp" />
+    <ClCompile Include="..\Resources\NaviMesh.cpp" />
+    <ClCompile Include="..\Resources\RcCol.cpp" />
+    <ClCompile Include="..\Resources\RcTex.cpp" />
+    <ClCompile Include="..\Resources\Resources.cpp" />
+    <ClCompile Include="..\Resources\ResourcesMgr.cpp" />
+    <ClCompile Include="..\Resources\StaticMesh.cpp" />
+    <ClCompile Include="..\Resources\TerrainTex.cpp" />
+    <ClCompile Include="..\Resources\Texture.cpp" />
+    <ClCompile Include="..\Resources\TriCol.cpp" />
+    <ClCompile Include="..\Resources\VIBuffer.cpp" />
     <ClCompile Include="..\System\Font.cpp" />
     <ClCompile Include="..\System\FontMgr.cpp" />
     <ClCompile Include="..\System\Frame.cpp" />
@@ -29,13 +46,27 @@
     <ClCompile Include="..\System\SpriteMgr.cpp" />
     <ClCompile Include="..\System\Timer.cpp" />
     <ClCompile Include="..\System\TimerMgr.cpp" />
+    <ClCompile Include="..\Utility\BaseRenderer.cpp" />
+    <ClCompile Include="..\Utility\Camera.cpp" />
+    <ClCompile Include="..\Utility\CameraManager.cpp" />
     <ClCompile Include="..\Utility\Component.cpp" />
+    <ClCompile Include="..\Utility\Frustum.cpp" />
     <ClCompile Include="..\Utility\GameObject.cpp" />
     <ClCompile Include="..\Utility\Layer.cpp" />
+    <ClCompile Include="..\Utility\Light.cpp" />
+    <ClCompile Include="..\Utility\LightMgr.cpp" />
     <ClCompile Include="..\Utility\Management.cpp" />
+    <ClCompile Include="..\Utility\NaviTriCol.cpp" />
+    <ClCompile Include="..\Utility\Optimization.cpp" />
     <ClCompile Include="..\Utility\ProtoMgr.cpp" />
+    <ClCompile Include="..\Utility\Renderer.cpp" />
+    <ClCompile Include="..\Utility\RenderTarget.cpp" />
+    <ClCompile Include="..\Utility\RenderTargetMgr.cpp" />
     <ClCompile Include="..\Utility\Scene.cpp" />
+    <ClCompile Include="..\Utility\Shader.cpp" />
+    <ClCompile Include="..\Utility\TerrainRenderer.cpp" />
     <ClCompile Include="..\Utility\Transform.cpp" />
+    <ClCompile Include="..\Utility\UserManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Header\Engine_Define.h" />
@@ -45,8 +76,26 @@
     <ClInclude Include="..\Header\Engine_Struct.h" />
     <ClInclude Include="..\Header\Engine_Typedef.h" />
     <ClInclude Include="..\Header\Export_Function.h" />
+    <ClInclude Include="..\Header\Export_Resouces.h" />
     <ClInclude Include="..\Header\Export_System.h" />
     <ClInclude Include="..\Header\Export_Utility.h" />
+    <ClInclude Include="..\Resources\AniCtrl.h" />
+    <ClInclude Include="..\Resources\Cell.h" />
+    <ClInclude Include="..\Resources\CubeTex.h" />
+    <ClInclude Include="..\Resources\DynamicMesh.h" />
+    <ClInclude Include="..\Resources\HierarchyLoader.h" />
+    <ClInclude Include="..\Resources\Line.h" />
+    <ClInclude Include="..\Resources\Mesh.h" />
+    <ClInclude Include="..\Resources\NaviMesh.h" />
+    <ClInclude Include="..\Resources\RcCol.h" />
+    <ClInclude Include="..\Resources\RcTex.h" />
+    <ClInclude Include="..\Resources\Resources.h" />
+    <ClInclude Include="..\Resources\ResourcesMgr.h" />
+    <ClInclude Include="..\Resources\StaticMesh.h" />
+    <ClInclude Include="..\Resources\TerrainTex.h" />
+    <ClInclude Include="..\Resources\Texture.h" />
+    <ClInclude Include="..\Resources\TriCol.h" />
+    <ClInclude Include="..\Resources\VIBuffer.h" />
     <ClInclude Include="..\System\Font.h" />
     <ClInclude Include="..\System\FontMgr.h" />
     <ClInclude Include="..\System\Frame.h" />
@@ -57,15 +106,30 @@
     <ClInclude Include="..\System\SpriteMgr.h" />
     <ClInclude Include="..\System\Timer.h" />
     <ClInclude Include="..\System\TimerMgr.h" />
+    <ClInclude Include="..\Utility\BaseRenderer.h" />
+    <ClInclude Include="..\Utility\Camera.h" />
+    <ClInclude Include="..\Utility\CameraManager.h" />
     <ClInclude Include="..\Utility\Component.h" />
+    <ClInclude Include="..\Utility\Frustum.h" />
     <ClInclude Include="..\Utility\GameObject.h" />
     <ClInclude Include="..\Utility\Layer.h" />
+    <ClInclude Include="..\Utility\Light.h" />
+    <ClInclude Include="..\Utility\LightMgr.h" />
     <ClInclude Include="..\Utility\Management.h" />
+    <ClInclude Include="..\Utility\NaviTriCol.h" />
+    <ClInclude Include="..\Utility\Optimization.h" />
     <ClInclude Include="..\Utility\ProtoMgr.h" />
+    <ClInclude Include="..\Utility\Renderer.h" />
+    <ClInclude Include="..\Utility\RenderTarget.h" />
+    <ClInclude Include="..\Utility\RenderTargetMgr.h" />
     <ClInclude Include="..\Utility\Scene.h" />
+    <ClInclude Include="..\Utility\Shader.h" />
+    <ClInclude Include="..\Utility\TerrainRenderer.h" />
     <ClInclude Include="..\Utility\Transform.h" />
+    <ClInclude Include="..\Utility\UserManager.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Header\Export_Resouces.inl" />
     <None Include="..\Header\Export_System.inl" />
     <None Include="..\Header\Export_Utility.inl" />
   </ItemGroup>

@@ -14,7 +14,6 @@ inline CComponent*	Clone(const _ushort& wContainerIdx, const _tchar* pResourcesT
 
 // Set
 // General
-
 inline HRESULT		Reserve_ContainerSize(const _ushort& wSize);
 inline HRESULT		Ready_Buffer(LPDIRECT3DDEVICE9 pGraphicDev,	const _ushort& wContainerIdx,	const _tchar* pBufferTag,	BUFFERID eID,	_ulong dwCntX = 1,	_ulong dwCntZ = 1,	_ulong dwItv = 1);
 inline HRESULT		Ready_Terrain_Buffer(LPDIRECT3DDEVICE9 pGraphicDev,	const _ushort& wContainerIdx, const _tchar* pBufferTag, const _tchar* pDataPath, _ulong dwCntX = 1,	_ulong dwCntZ = 1,	_ulong dwItv = 1);

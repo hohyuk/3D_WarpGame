@@ -67,13 +67,14 @@ public:
 
 	_bool ApplyParentScaleMat()const { return m_bIsParentScale; }
 	
-	void	SetGroggyOn(const _bool& bIsGroggyOn) { m_bIsGroggyOn = bIsGroggyOn; }
+	// Player가 다른 Object에 들어갔을때 상태변화
 	_bool	IsGroggy()const { return m_bIsGroggyOn; }
+	void	SetGroggy(const _bool& bIsGroggyOn) { m_bIsGroggyOn = bIsGroggyOn; }
 
 	_bool	GetTargetOn()const { return m_bIsTargetOn; }
 
 	_bool IsEventOn()const { return m_bIsEventOn; }
-	void SetEventOn(const _bool& bEvent = true) { m_bIsEventOn = bEvent; }
+	void SetEvent(const _bool& bEvent = true) { m_bIsEventOn = bEvent; }
 
 	_int GetEventTagValue()const { return m_iEventValue; }
 	void SetEventTagValue(const _int& _EventVal) { m_iEventValue = _EventVal; }
@@ -90,9 +91,9 @@ private:
 protected:
 	LPDIRECT3DDEVICE9 m_pGraphicDev;
 
-	CLayer* m_pLayer = nullptr;
+	CLayer* m_pLayer{ nullptr };
 
-	CGameObject* m_pParent = nullptr;
+	CGameObject* m_pParent{ nullptr };
 	vector<CGameObject*> m_vecChildren;
 	//map<string, CColliderObject*> m_mapCollider;
 	DWORD				m_dwByte{};

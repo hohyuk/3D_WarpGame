@@ -31,7 +31,7 @@ void CMainApp::Free()
 	Client::Safe_Release(m_pManagementClass);
 
 	Engine::Release_Utility();
-	//Engine::Release_Resoures();
+	Engine::Release_Resoures();
 	Engine::Release_System();
 }
 
